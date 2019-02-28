@@ -1,0 +1,33 @@
+{
+    "name": "einfacharchiv/laravel-cashier-microdata",
+    "description": "Add Microdata to your Laravel Cashier invoices",
+    "keywords": [
+        "einfachArchiv",
+        "php",
+        "stripe",
+        "laravel",
+        "laravel-cashier",
+        "microdata",
+        "json-ld"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/einfachArchiv/laravel-cashier-microdata",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philip Günther",
+            "email": "support@einfacharchiv.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~7.0",
+        "nesbot/carbon": "~1.25|~2.0",
+        "spatie/schema-org": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "einfachArchiv\\LaravelCashierMicrodata\\": "src/"
+        }
+    }
+}
