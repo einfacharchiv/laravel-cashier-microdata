@@ -294,10 +294,16 @@ class Invoice
     /**
      * Returns the JSON-LD script tag.
      *
-     * @return string|null
+     * @return string
      */
     public function __toString()
     {
-        return $this->getScript();
+        $script = $this->getScript();
+
+        if (is_null($script)) {
+            return '';
+        }
+
+        return $script;
     }
 }
