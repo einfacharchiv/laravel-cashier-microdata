@@ -15,7 +15,7 @@ composer require einfacharchiv/laravel-cashier-microdata
 ```
 
 ## Usage
-Add the following snippet to your invoice notification `toMail` method and modify the variables to your environment. `$this->invoice` is your `\Laravel\Cashier\Invoice` (or alternatively `\Stripe\Invoice`). The methods `setSeller`, `setBuyer`, and `setUrl` are optional.
+Add the following snippet to your invoice notification `toMail` method and adjust the values to your environment. `$this->invoice` is your `\Laravel\Cashier\Invoice` (or alternatively `\Stripe\Invoice`). The methods `setSeller`, `setBuyer`, and `setUrl` are optional.
 
 ```php
 // ...
