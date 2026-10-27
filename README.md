@@ -5,7 +5,7 @@
 This package provides an easy way to add Microdata (in JSON-LD format) to your Laravel Cashier invoices.
 
 ## Requirements
-PHP 7.0 and later.
+PHP 8.0 and later.
 
 ## Installation
 You can install this package via [Composer](http://getcomposer.org). Run the following command:

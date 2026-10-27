@@ -21,8 +21,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.2.5|^8.0",
-        "nesbot/carbon": "~1.25|~2.0",
+        "php": "^8.0",
+        "nesbot/carbon": "^2.72.6",
         "spatie/schema-org": "^3.11"
     },
     "autoload": {
